@@ -1,0 +1,9 @@
+.frontend-pages {
+    .card {
+        width: calc(33% - 16px);
+
+        @include media-breakpoint-down(lg) { 
+            width: 100%;
+        }
+    }
+}
